@@ -48,7 +48,7 @@ const search=(e)=>{
   if((e.replace(/ /g, "")[0])=='+='){
 //alert(e.replace(/'+234'/,0))
   }
-  navigation.navigate('chatt',{me: e.replace(/ /g, "")})
+  navigation.navigate('Chat',{me: e.replace(/ /g, "")})
 }
 
   return (

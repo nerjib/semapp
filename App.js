@@ -3,6 +3,7 @@ import { Button, View, Text } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import HomePage from './src/screens/home'
+import Chat from './src/screens/chat'
 
 function HomeScreen({ navigation }) {
   return (
@@ -44,6 +45,7 @@ export default function App() {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomePage} />
+        <Drawer.Screen name="Chat" component={Chat} />
         <Drawer.Screen name="Notifications" component={NotificationsScreen} />
         <Drawer.Screen name="Notifications b" component={NotificationsScreen} />
       </Drawer.Navigator>
