@@ -6,13 +6,40 @@ import * as Contacts from 'expo-contacts';
 
 
 
-const Chat =({navigation, route})=>{
+const Settings =({navigation, route})=>{
+
+    
+const FlatListSeparator=()=>{
+    return(
+        <View style={{height:0.5, backgroundColor:'green', width:'100%'}}/>
+    )
+    };
 
     return(
+        <View style={{flex:1, marginTop:'10%'}}>
+                           {FlatListSeparator()}
 
-        <View style={{flex:1}}>
-       {route.params &&     <Text>{route.params.me}</Text>}
-            <TextInput style={styles.box1} placeholder='message'/>
+           <TouchableOpacity onPress={()=>{navigation.navigate('products')}} style={{height:40}}>
+               <Text style={{height:40}}>
+                   My Products
+               </Text>
+               {FlatListSeparator()}
+
+           </TouchableOpacity>
+           <TouchableOpacity style={{height:40}}>
+               <Text style={{height:40}}>
+                   Account
+               </Text>
+               {FlatListSeparator()}
+
+           </TouchableOpacity>
+           <TouchableOpacity style={{height:40}}>
+               <Text style={{height:40}}>
+                   Settings
+               </Text>
+               {FlatListSeparator()}
+
+           </TouchableOpacity>
         </View>
     )
 }
@@ -57,4 +84,4 @@ const styles = StyleSheet.create ({
     },
 })
 
-export default Chat;
+export default Settings;

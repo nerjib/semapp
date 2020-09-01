@@ -58,7 +58,7 @@ const search=(e)=>{
        <TouchableOpacity onPress={()=>{alert('jf nfj')}} style={{backgroundColor:'grey', width:'50%', height:50, alignItems:'center', alignContent:'center'}}>
           <Text>Search</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>{navigation.navigate('mainmenu')}} style={{backgroundColor:'grey', width:'50%', height:50, alignItems:'center', alignContent:'center'}}>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Settings')}} style={{backgroundColor:'grey', width:'50%', height:50, alignItems:'center', alignContent:'center'}}>
           <Text>ME </Text>
         </TouchableOpacity>
         </View>
@@ -66,9 +66,9 @@ const search=(e)=>{
             <Text>
                 Search
             </Text>
-        
         </TouchableOpacity>
-                   
+        {FlatListSeparator()}
+
         
     <FlatList
           data={contacts}
