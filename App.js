@@ -49,7 +49,7 @@ const Stack = createStackNavigator()
 export default function App() {
   return (
     <NavigationContainer>
-     <Drawer.Navigator initialRouteName="Settings">
+     <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomePage} />
         <Drawer.Screen name="Chat" component={Chat} />
         <Drawer.Screen name="Settings" component={Setting} />
