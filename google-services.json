@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "988877145305",
+    "firebase_url": "https://kadsema-890c3.firebaseio.com",
+    "project_id": "kadsema-890c3",
+    "storage_bucket": "kadsema-890c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988877145305:android:54cd1d058c812ed3a6aac8",
+        "android_client_info": {
+          "package_name": "ng.com.nklere.sema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988877145305-c24oc143drmr3sab20d87o0flucmnbj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEv5xF_HqMamlm7CA_--FPZ94xXbbJ-YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988877145305-c24oc143drmr3sab20d87o0flucmnbj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
